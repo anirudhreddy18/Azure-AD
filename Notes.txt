@@ -2,7 +2,7 @@ Azure AD
   is Microsoft's cloud based idenity & IAM.
   modern: OAuth,OpenId Connector,SAML
   support users, devices & applications.
-  internet scale & globally available
+  internet scale & globally available.
   secure(information protection, intrusion detection) & resiliant.
   lets you manage internal(sync on premise AD users) & external users
   manage first party(apps i write for my org) & third party(vendor apps).
@@ -24,3 +24,11 @@ Azure AD
    Enterprise apps -> Dropbox in an org (but sign in using Azure AD) service now 
    public client -> single Page Apps
    Confidential client -> running on our server (web APIS)
+
+Modern Authentication
+ SAML - exchangig tokens for authentication & authorization. web browser(sso) & api's
+ OAuth - a standard for delegation. for ex, a webiste asks to register with facebook. website doesnt have our password. mostky social media.
+         A is allowed to do B set of things (B meaning permissions)
+ OpenId - using better version of Oauth2.0
+ PKCE
+ Federation - Azure AD relies on ADFS to connect to on premise AD. Dont worry too much as dev
