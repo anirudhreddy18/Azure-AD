@@ -32,3 +32,13 @@ Modern Authentication
  OpenId - using better version of Oauth2.0
  PKCE
  Federation - Azure AD relies on ADFS to connect to on premise AD. Dont worry too much as dev
+ 
+Service Principals
+  An identity for use with applications(just like assigning roles with users). Used for automated scenarios.(similar to service account kubernetes)
+  An app is associated with a service principal to get permissions.
+  can login to azure ad with service principal credentials.(username & password)
+  when u create an app a service principal gets assignned with read permissions.
+  
+App Registration
+  Authentication & Authorization Endpoints change for single tenant & multi tenant 
+  
